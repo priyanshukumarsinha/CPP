@@ -24,7 +24,7 @@
 	- Class 
 
 ## 2. Variables
--variables are the names of memory locations where we store data
+- variables are the names of memory locations where we store data
 - variable name is any combination of alphabet (a to z or A to Z), digit (0 to 9) and underscore (_)
 
 ## 3. Keywords 
