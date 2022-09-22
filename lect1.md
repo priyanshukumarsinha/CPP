@@ -41,7 +41,9 @@
 - Object is an instance of a class.
 
 Example : 
-'class box
+```
+
+class box
 {
     int l,b,h;
     void setDimension(int x, int y, int z)
@@ -56,7 +58,9 @@ Example :
 
 //now we can create an object like this
 box b1;
-'
+
+```
+
 
 ## Software Development in C++
 - software dev process in c++ is very similar to that of c language
