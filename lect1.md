@@ -40,7 +40,7 @@
 - Object is an instance of a class.
 
 Example : 
-```
+```cpp
 
 class box
 {
