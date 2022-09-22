@@ -1,7 +1,6 @@
 # Lecture 1 : INTRODUCTION TO C++
 
 ## History of C++
-
 - C++ was developed by Bjarne Stroustrup in 1979 at AT & T's Lab, it was called C with Classes
 - C++'s OOP aspect was inspired by a computer simulation language called simula67
 - JAVA is written in C++
