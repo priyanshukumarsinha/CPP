@@ -72,6 +72,3 @@ box b1;
 - but there must still be some unknown code which will be solved by linker by linking library files
 - now we will get a sum.exe file which can be used to run the program
 
-
---*--
-
