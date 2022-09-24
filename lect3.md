@@ -1,11 +1,11 @@
 # Lecture 3 : Input-Output
 
 ## Output Instruction
-- In C, standard output device is monitor and *printf()* is used to send data/message to monitor
-- *printf()* is a *predefined function*.
-- In C++, we can use *cout* to send data/ message to monitor.
-- cout is a *predefined object*
-- The operator *<<* is called *insertion or put to* operator
+- In C, standard output device is monitor and **printf()** is used to send data/message to monitor
+- **printf()** is a **predefined function**.
+- In C++, we can use **cout** to send data/ message to monitor.
+- cout is a **predefined object**
+- The operator **<<** is called **insertion or put to** operator
 
 ```cpp
 printf("Hello World!"); //in C
@@ -20,11 +20,11 @@ cout << a+b;
 ```
 
 ## Input Instruction
-- In C, Standard input device is keyboard and *scanf()* is used to recieve data from keyboard.
-- scanf() is a *predefined function*.
-- In C++, we can use *cin* to input data from keyboard.
-- The identifier cin is a *predefined object* in C++.
-- The operator *>>* is known as extraction or get from operator
+- In C, Standard input device is keyboard and **scanf()** is used to recieve data from keyboard.
+- scanf() is a **predefined function**.
+- In C++, we can use **cin** to input data from keyboard.
+- The identifier cin is a **predefined object** in C++.
+- The operator **>>** is known as extraction or get from operator
 
 ```cpp
 
@@ -49,9 +49,9 @@ cin >> a >> b;
 - Identifiers can be function names, variables, objects, Macros, etc.
 
 ## endl
-- Inserting endl into the output stream causes the screen cursor to move to the beginning of the next line.
-- endl is a manipulator and it is declared in iostream.h
-- '\n' character also works as it works in C.
+- Inserting **endl** into the output stream causes the screen cursor to move to the beginning of the next line.
+- endl is a manipulator and it is **declared in iostream.h**
+- **'\n'** character also works as it works in C.
 
 ## Sample Program (square.cpp)
 ```cpp
