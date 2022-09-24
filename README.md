@@ -3,6 +3,13 @@
 [Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![0%](https://progress-bar.dev/0)
 
 Progress Report :
-- Day 1 (22 Sep 2022) : [Lecture 1 : Introducion to C++](https://priyanshu.github.io/CPP/lect1), [Lecture 2 : Identifiers](https://priyanshu.github.io/CPP/lect2)
+- Day 1 (22 Sep 2022) : [Lecture 1 : Introducion to C++](https://priyanshukumarsinha.github.io/CPP/lect1), [Lecture 2 : Identifiers](https://priyanshukumarsinha.github.io/CPP/lect2)
 
-- Day 2 (24 Sep 2022) : [Lecture 3 : Input-Output](https://priyanshu.github.io/CPP/lect3), [Lecture 4 : Reference Variable](https://priyanshu.github.io/CPP/lect4) 
+- Day 2 (24 Sep 2022) : [Lecture 3 : Input-Output](https://priyanshukumarsinha.github.io/CPP/lect3), [Lecture 4 : Reference Variable](https://priyanshukumarsinha.github.io/CPP/lect4) 
+
+
+
+
+Author : [Priyashu Kumar Sinha](https://github.com/priyanshukumarsinha)
+Github : [CPP](https://github.com/priyanshukumarsinha/CPP)
+Deployment : [CPP](https://priyanshu.github.io/CPP)
