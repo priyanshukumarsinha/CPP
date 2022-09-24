@@ -9,7 +9,7 @@ Progress Report :
 
 
 
-
-Author : [Priyashu Kumar Sinha](https://github.com/priyanshukumarsinha)
-Github : [CPP](https://github.com/priyanshukumarsinha/CPP)
-Deployment : [CPP](https://priyanshu.github.io/CPP)
+<br>
+Author : [Priyashu Kumar Sinha](https://github.com/priyanshukumarsinha) <br>
+Github : [CPP](https://github.com/priyanshukumarsinha/CPP) <br>
+Deployment : [CPP](https://priyanshu.github.io/CPP) <br>
