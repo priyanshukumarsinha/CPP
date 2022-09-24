@@ -70,3 +70,4 @@ int main()
 	cout << "Square of" << x << "is" << s;
 	return 0;
 }
+```
