@@ -1,6 +1,6 @@
 # C++ Programming Language
 [Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![11%](https://progress-bar.dev/11) <br><br>
-[Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![28%](https://progress-bar.dev/28)
+[Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![36%](https://progress-bar.dev/28)
 
 ## Progress Report :
 - **Day 1 (22 Sep 2022) :** 
@@ -21,6 +21,8 @@
 	- [Program 8 : Leap Year](https://priyanshukumarsinha.github.io/CPP/8_leapYear.cpp)		
 	- [Program 9 : Sum of first N Natural Numbers](https://priyanshukumarsinha.github.io/CPP/9_sumofN.cpp)		
 	- [Program 10 : Factorial of a Number](https://priyanshukumarsinha.github.io/CPP/10_factorial.cpp)		
+	- [Program 11 : Fibonacci Series](https://priyanshukumarsinha.github.io/CPP/11_fibnacci.cpp)		
+	- [Program 12 : Prime Number](https://priyanshukumarsinha.github.io/CPP/12_prime.cpp)		
 
 ## Project Details : 
 - **Author:** [Priyanshu Kumar Sinha](https://github.com/priyanshukumarsinha)
