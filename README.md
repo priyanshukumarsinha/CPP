@@ -2,6 +2,11 @@
 [Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![7%](https://progress-bar.dev/5) <br><br>
 [Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![10%](https://progress-bar.dev/10)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="#">
+  <img src="https://progress-bar.dev/10">
+</picture>
+
 ## Progress Report :
 - **Day 1 (22 Sep 2022) :** 
 	- [Lecture 1 : Introducion to C++](https://priyanshukumarsinha.github.io/CPP/lect1) 
