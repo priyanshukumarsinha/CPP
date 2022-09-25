@@ -3,8 +3,9 @@
 [Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![10%](https://progress-bar.dev/10)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="#">
-  <img src="https://progress-bar.dev/10">
+  <source media="(prefers-color-scheme: dark)" srcset="https://progress-bar.dev/10">
+  <source media="(prefers-color-scheme: light)" srcset="https://progress-bar.dev/10">
+  <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="hhttps://progress-bar.dev/10">
 </picture>
 
 ## Progress Report :
