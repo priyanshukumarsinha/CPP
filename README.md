@@ -1,6 +1,6 @@
 # C++ Programming Language
-[Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![11%](https://progress-bar.dev/5) <br><br>
-[Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![28%](https://progress-bar.dev/10)
+[Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![11%](https://progress-bar.dev/11) <br><br>
+[Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![28%](https://progress-bar.dev/28)
 
 ## Progress Report :
 - **Day 1 (22 Sep 2022) :** 
