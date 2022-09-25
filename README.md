@@ -2,7 +2,7 @@
 [Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![7%](https://progress-bar.dev/5) <br><br>
 [Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![10%](https://progress-bar.dev/10)
 
-##Progress Report :
+## Progress Report :
 - **Day 1 (22 Sep 2022) :** 
 	- [Lecture 1 : Introducion to C++](https://priyanshukumarsinha.github.io/CPP/lect1) 
 	- [Lecture 2 : Identifiers](https://priyanshukumarsinha.github.io/CPP/lect2)
@@ -20,7 +20,7 @@
 	- [Program 7 : Greatest Number between Three Numbers](https://priyanshukumarsinha.github.io/CPP/7_greatestBetweenThree.cpp)
 	- [Program 8 : Leap Year](https://priyanshukumarsinha.github.io/CPP/8_leapYear.cpp)		
 
-##Project Details : 
+## Project Details : 
 - **Author:** [Priyanshu Kumar Sinha](https://github.com/priyanshukumarsinha)
 - **Github:** [CPP](https://github.com/priyanshukumarsinha/CPP)
 - **Deployment:** [CPP](https://priyanshukumarsinha.github.io/CPP)
