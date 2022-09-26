@@ -148,7 +148,7 @@ int main()
 
 	int s = sum(a,b);
 
-	cout << "Result : << s;
+	cout << "Result :" << s;
 
 	return 0;
 }
@@ -167,6 +167,7 @@ int sum (int &y, int &z)
 - Better Memory Utilization
 - **Function savees memeory**
 	- function in a program is to save memory space which becomes appreciable when a function is likely be called many times.
+
 ### Function is time consuming
 - However evey time a function is called, it takes lot of extra time in executing a series of instructions for tasks such as jumping to the functions, saving registers, pushing arguments into the stack and returning to the calling function.
 - So, when function is small it is worthless to spend so much extra time in such tasks in cost of saving comparatively small space.
