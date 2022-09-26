@@ -8,6 +8,7 @@
 - Pre-defined functions are declared in header files and defined in library files.
 
 ## Definition, Declaration and Call
+
 ```cpp
 
 #incude<iostream> //declaration of cin and cout
@@ -43,6 +44,7 @@ void fun() //function definition
 - Takes Something, Returns Something
 
 ## Formal and Actual Arguments
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -66,12 +68,13 @@ int sum(int x, int y) // here x and y are formal arguments
 ```
 
 ## Types of Formal Arguments
--Formal arguments can be of three types
+- Formal arguments can be of three types
 	- Ordinary Variable of any type
 	- Pointer Variables
 	- Reference Variables
 - **Call by Value**
 	- when formal arguments are ordinary variables, it is function call by value.
+	- 
 ```cpp
 #include<iostream>
 using namespace std;
@@ -100,6 +103,7 @@ int sum(int x, int y)
 
 - **Call by Address**
 	- when formal arguments are pointer variables, it is function call by address.
+
 ```cpp
 
 #include<iostream>
@@ -129,6 +133,7 @@ int sum(int *p, int *q)
 
 - **Call by Reference**
 	- when formal arguments are reference variable, it is function call by reference.
+	
 ```cpp
 #include <iostream>
 using namespace std;
@@ -180,6 +185,7 @@ int sum (int &y, int &z)
 		2. Function with recursion.
 		3. Containing static Variable.
 - Example : 
+
 ```cpp
 
 #include <iostream>
@@ -200,6 +206,7 @@ void fun() // function Definition
 ```
 
 ## Default Arguments
+
 ```cpp
 #include <iostream>
 using nnamespace std;
