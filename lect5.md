@@ -74,7 +74,7 @@ int sum(int x, int y) // here x and y are formal arguments
 	- Reference Variables
 - **Call by Value**
 	- when formal arguments are ordinary variables, it is function call by value.
-	- 
+
 ```cpp
 #include<iostream>
 using namespace std;
