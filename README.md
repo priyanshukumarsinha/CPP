@@ -1,6 +1,6 @@
 # C++ Programming Language
-[Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![22%](https://progress-bar.dev/22) <br><br>
-[Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![51%](https://progress-bar.dev/51)
+[Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![26%](https://progress-bar.dev/26) <br><br>
+[Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![57%](https://progress-bar.dev/57)
 
 ## Progress Report :
 - **Day 1 (22 Sep 2022) :** 
@@ -36,7 +36,11 @@
 
 - **Day 5 (27 Sep 2022) :**
 	- [Lecture 6 : Structures](https://priyanshukumarsinha.github.io/CPP/lect6)
+	- [Lecture 7 : Classes and Objects in C++](https://priyanshukumarsinha.github.io/CPP/lect7)
+	- [Program 19 : Define a Class Time](https://priyanshukumarsinha.github.io/CPP/19_timeClass.cpp)		
+	- [Program 20 : Define a Class Rectangle](https://priyanshukumarsinha.github.io/CPP/20_rectClass.cpp)
 
+		
 ## Project Details : 
 - **Author:** [Priyanshu Kumar Sinha](https://github.com/priyanshukumarsinha)
 - **Github:** [CPP](https://github.com/priyanshukumarsinha/CPP)
