@@ -1,5 +1,5 @@
 # C++ Programming Language
-[Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![26%](https://progress-bar.dev/26) <br><br>
+[Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![29%](https://progress-bar.dev/29) <br><br>
 [Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![57%](https://progress-bar.dev/57)
 
 ## Progress Report :
@@ -39,6 +39,7 @@
 	- [Lecture 7 : Classes and Objects in C++](https://priyanshukumarsinha.github.io/CPP/lect7)
 	- [Program 19 : Define a Class Time](https://priyanshukumarsinha.github.io/CPP/19_timeClass.cpp)		
 	- [Program 20 : Define a Class Rectangle](https://priyanshukumarsinha.github.io/CPP/20_rectClass.cpp)
+	- [Lecture 8 : Static Members in C++](https://priyanshukumarsinha.github.io/CPP/lect8)
 
 		
 ## Project Details : 
