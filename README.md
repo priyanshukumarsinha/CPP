@@ -1,5 +1,5 @@
 # C++ Programming Language
-[Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![16%](https://progress-bar.dev/16) <br><br>
+[Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![22%](https://progress-bar.dev/22) <br><br>
 [Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![51%](https://progress-bar.dev/51)
 
 ## Progress Report :
@@ -33,6 +33,9 @@
 	- [Program 16 : Function to Calculate Next Prime Number](https://priyanshukumarsinha.github.io/CPP/16_nextPrime.cpp)		
 	- [Program 17 : Calculate area of Circle and Rectangle using Function Overload](https://priyanshukumarsinha.github.io/CPP/17_funcOverloadAreaCirRect.cpp)		
 	- [Program 18 : Calculate Volume of Sphere and Cuboid using Function Overload](https://priyanshukumarsinha.github.io/CPP/18_funcOverloadVolSphCuboid.cpp)		
+
+- **Day 5 (27 Sep 2022) :**
+	- [Lecture 6 : Structures](https://priyanshukumarsinha.github.io/CPP/lect6)
 
 ## Project Details : 
 - **Author:** [Priyanshu Kumar Sinha](https://github.com/priyanshukumarsinha)
