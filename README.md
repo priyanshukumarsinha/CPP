@@ -1,5 +1,5 @@
 # C++ Programming Language
-[Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![33%](https://progress-bar.dev/33) <br><br>
+[Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![34%](https://progress-bar.dev/34) <br><br>
 [Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![57%](https://progress-bar.dev/57)
 
 ## Progress Report :
@@ -41,6 +41,7 @@
 	- [Program 20 : Define a Class Rectangle](https://priyanshukumarsinha.github.io/CPP/20_rectClass.cpp)
 	- [Lecture 8 : Static Members in C++](https://priyanshukumarsinha.github.io/CPP/lect8)
 	- [Lecture 9 : Constructors in C++](https://priyanshukumarsinha.github.io/CPP/lect9)
+	- [Lecture 10 : Destructors in C++](https://priyanshukumarsinha.github.io/CPP/lect10)
 
 		
 ## Project Details : 
