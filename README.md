@@ -1,6 +1,6 @@
 # C++ Programming Language
-[Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![34%](https://progress-bar.dev/34) <br><br>
-[Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![57%](https://progress-bar.dev/57)
+[Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![38%](https://progress-bar.dev/38) <br><br>
+[Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![65%](https://progress-bar.dev/65)
 
 ## Progress Report :
 - **Day 1 (22 Sep 2022) :** 
@@ -39,10 +39,17 @@
 	- [Lecture 7 : Classes and Objects in C++](https://priyanshukumarsinha.github.io/CPP/lect7)
 	- [Program 19 : Define a Class Time](https://priyanshukumarsinha.github.io/CPP/19_timeClass.cpp)		
 	- [Program 20 : Define a Class Rectangle](https://priyanshukumarsinha.github.io/CPP/20_rectClass.cpp)
+	
+- **Day 6 (28 Sep 2022) :**
 	- [Lecture 8 : Static Members in C++](https://priyanshukumarsinha.github.io/CPP/lect8)
 	- [Lecture 9 : Constructors in C++](https://priyanshukumarsinha.github.io/CPP/lect9)
 	- [Lecture 10 : Destructors in C++](https://priyanshukumarsinha.github.io/CPP/lect10)
 
+- **Day 7 (29 Sep 2022) :**
+	- [Lecture 11 : Operator Overloading](https://priyanshukumarsinha.github.io/CPP/lect11)
+	- [Program 21 : Overload + Operator in Time class](https://priyanshukumarsinha.github.io/CPP/21_+OpOverloadTime.cpp)
+	- [Program 22 : Define a Class Rectangle](https://priyanshukumarsinha.github.io/CPP/22_subscriptOpOverload.cpp)
+	- [Program 23 : Define a Class Rectangle](https://priyanshukumarsinha.github.io/CPP/23_paranthesisOoverload.cpp)
 		
 ## Project Details : 
 - **Author:** [Priyanshu Kumar Sinha](https://github.com/priyanshukumarsinha)
