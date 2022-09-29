@@ -1,6 +1,6 @@
 # C++ Programming Language
 [Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![38%](https://progress-bar.dev/38) <br><br>
-[Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![65%](https://progress-bar.dev/65)
+[Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![68%](https://progress-bar.dev/68)
 
 ## Progress Report :
 - **Day 1 (22 Sep 2022) :** 
@@ -48,8 +48,9 @@
 - **Day 7 (29 Sep 2022) :**
 	- [Lecture 11 : Operator Overloading](https://priyanshukumarsinha.github.io/CPP/lect11)
 	- [Program 21 : Overload + Operator in Time class](https://priyanshukumarsinha.github.io/CPP/21_+OpOverloadTime.cpp)
-	- [Program 22 : Define a Class Rectangle](https://priyanshukumarsinha.github.io/CPP/22_subscriptOpOverload.cpp)
-	- [Program 23 : Define a Class Rectangle](https://priyanshukumarsinha.github.io/CPP/23_paranthesisOoverload.cpp)
+	- [Program 22 : Overload Subscript Operator \\[\\]](https://priyanshukumarsinha.github.io/CPP/22_subscriptOpOverload.cpp)
+	- [Program 23 : Overload Paranthesis Operator ()](https://priyanshukumarsinha.github.io/CPP/23_paranthesisOoverload.cpp)
+	- [Program 24 : Overload Greater Than Operator](https://priyanshukumarsinha.github.io/CPP/23_paranthesisOoverload.cpp)
 		
 ## Project Details : 
 - **Author:** [Priyanshu Kumar Sinha](https://github.com/priyanshukumarsinha)
