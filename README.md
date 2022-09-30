@@ -1,5 +1,5 @@
 # C++ Programming Language
-[Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![38%](https://progress-bar.dev/38) <br><br>
+[Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![46%](https://progress-bar.dev/46) <br><br>
 [Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![68%](https://progress-bar.dev/68)
 
 ## Progress Report :
@@ -51,7 +51,11 @@
 	- [Program 22 : Overload Subscript Operator \\[\\]](https://priyanshukumarsinha.github.io/CPP/22_subscriptOpOverload.cpp)
 	- [Program 23 : Overload Paranthesis Operator ()](https://priyanshukumarsinha.github.io/CPP/23_paranthesisOoverload.cpp)
 	- [Program 24 : Overload Greater Than Operator](https://priyanshukumarsinha.github.io/CPP/23_paranthesisOoverload.cpp)
-		
+
+- **Day 8 (30 Sep 2022) :**
+	- [Lecture 12 : Friend Function](https://priyanshukumarsinha.github.io/CPP/lect12)
+
+
 ## Project Details : 
 - **Author:** [Priyanshu Kumar Sinha](https://github.com/priyanshukumarsinha)
 - **Github:** [CPP](https://github.com/priyanshukumarsinha/CPP)
