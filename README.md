@@ -1,8 +1,16 @@
 # C++ Programming Language
+Welcome to the C++ Learning Repository! This repository is designed to help you learn and practice C++ programming. It includes a variety of resources such as problem solutions and tutorials that cover fundamental and advanced concepts in C++.
+
+## My Progress
 [Course : ](https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF)  ![46%](https://progress-bar.dev/46) <br><br>
 [Practice : ](https://www.mysirg.com/programming-examples/cpp-programs/) ![68%](https://progress-bar.dev/68)
 
-## Progress Report :
+## How to Use
+Clone the Repository: Clone the repository to your local machine using git clone https://github.com/priyanshukumarsinha/CPP.
+Explore the Files: Navigate through the directories to find problem solutions and tutorials.
+Practice and Learn: Read through the tutorials, and try solving the problems on your own before referring to the solutions provided.
+
+## Progress Documentation :
 - **Day 1 (22 Sep 2022) :** 
 	- [Lecture 1 : Introducion to C++](https://priyanshukumarsinha.github.io/CPP/lect1) 
 	- [Lecture 2 : Identifiers](https://priyanshukumarsinha.github.io/CPP/lect2)
@@ -60,3 +68,11 @@
 - **Author:** [Priyanshu Kumar Sinha](https://github.com/priyanshukumarsinha)
 - **Github:** [CPP](https://github.com/priyanshukumarsinha/CPP)
 - **Deployment:** [CPP](https://priyanshukumarsinha.github.io/CPP)
+
+## Contributions
+Feel free to contribute to this repository by adding more problems, improving existing solutions, or enhancing the tutorials. Pull requests are welcome!
+
+## Acknowledgments
+This repository was created and maintained by Priyanshu Kumar Sinha as a learning resource for C++ enthusiasts. Special thanks to the open-source community for their continuous support and contributions.
+
+Happy coding!
