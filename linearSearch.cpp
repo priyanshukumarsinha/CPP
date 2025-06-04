@@ -116,13 +116,21 @@ int avg(struct Array *arr){
 void reverse(struct Array *arr){
     int *B = (int *)malloc(sizeof(int) * arr->length);
     int i, j;
-
-    for(i=arr->length-1, j=0; i<=0; i--, j++){
-        B[j] = A[i];
+    
+    for(i=arr->length-1, j=0; i>=0; i--, j++){
+        B[j] = arr->A[i];
     }
 
     for(i=0; i<arr->length; i++){
-        A[i] = B[i];
+        arr->A[i] = B[i];
+    }
+}
+
+void reverse2(struct Array *arr){
+    int i,j;
+
+    for(i=0, j=arr->length-1; i<j; i++,j--){
+        swap(arr->A[i], arr->A[j]);
     }
 }
 
@@ -130,9 +138,11 @@ void reverse(struct Array *arr){
 int main()
 {
  struct Array arr1={{2,23,14,5,6,9,8,12},10,8};
- cout << get(&arr1, 3) << endl;
- Set(&arr1,3,52);
+//  cout << get(&arr1, 3) << endl;
+//  Set(&arr1,3,52);
+//  Display(arr1);
+//  cout << sum(&arr1) <<endl<< min(&arr1) <<endl<< max(&arr1)<<endl << avg(&arr1)<<endl;
+ reverse2(&arr1);
  Display(arr1);
- cout << sum(&arr1) <<endl<< min(&arr1) <<endl<< max(&arr1)<<endl << avg(&arr1)<<endl;
  return 0;
 }
