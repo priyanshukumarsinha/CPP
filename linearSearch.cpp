@@ -51,11 +51,27 @@ int binarySearch(struct Array *arr, int key){
     return -1;
 }
 
+int RbinarySearch(struct Array *arr,int l, int h, int key){
+    int mid=0;
+    if(l<=h){
+        mid = (l+h)/2;
+        if(key == arr->A[mid]){
+            return mid;
+        }
+        else if(arr->A[mid] < key){
+            return RbinarySearch(arr, l, mid-1, key);
+        }
+        else
+            return RbinarySearch(arr, mid+1, h, key);
+    }
+    return -1;
+}
+
 
 int main()
 {
  struct Array arr1={{2,23,14,5,6,9,8,12},10,8};
- printf("%d\n",binarySearch(&arr1,14));
+ printf("%d\n",RbinarySearch(&arr1,0, arr1.length-1 ,14));
  Display(arr1);
  return 0;
 }
