@@ -198,13 +198,59 @@ struct Array * Merge(struct Array *arr1, struct Array *arr2){
     return arr3;
 }
 
+void append(struct Array *arr, int x){
+    if(arr->length < arr-> size){
+        arr->A[arr->length] = x;
+        arr->length++;
+    }
+    else
+        cout << "Array Overflow" << endl;
+}
+
+void insert(struct Array *arr, int index, int x){
+    if(arr->length + 1 > arr->size){
+        cout << "Array Overflow" << endl;
+        return;
+    }
+    if(index>=0 && index<arr->length){
+        for(int i=arr->length; i>index; i--){
+            arr->A[i] = arr->A[i-1];
+        }
+        arr->A[index] =x;
+        arr->length++;
+    }
+}
+
+int Delete(struct Array *arr, int index){
+    int deleted_item=0;
+    if(arr->length>0){
+        if(index>=0 && index<arr->length){
+            deleted_item = arr->A[index];
+            for(int i=index; i<arr->length; i++){
+                arr->A[i] = arr->A[i+1];
+            }
+            arr->length--;
+        }
+    }
+    else
+        cout << "Array Underflow";
+
+    return deleted_item;
+}
+
 int main()
 {
  struct Array arr1={{2,9,21,28,35},10,5};
  struct Array arr2={{2,3,16,18,28},10,5};
  struct Array *arr3; 
- arr3=Merge(&arr1,&arr2);
- Display(*arr3);
+//  arr3=Merge(&arr1,&arr2);
+ Display(arr1);
+ append(&arr1, 5);
+ Display(arr1);
+ Delete(&arr1, 3);
+ Display(arr1);
+ insert(&arr1, 3, 28);
+ Display(arr1);
 
  return 0;
 }
