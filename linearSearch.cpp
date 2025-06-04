@@ -4,14 +4,14 @@ using namespace std;
 
 struct Array
 {
- int A[10];
+ int *A;
  int size;
  int length;
 };
 
 void Display(struct Array arr){
-    for(auto it: arr.A){
-        cout << it << " ";
+    for(int i=0; i<arr.length; i++){
+        cout << arr.A[i] << " ";
     }
     cout << endl;
 }
@@ -212,7 +212,7 @@ void insert(struct Array *arr, int index, int x){
         cout << "Array Overflow" << endl;
         return;
     }
-    if(index>=0 && index<arr->length){
+    if(index>=0 && index<=arr->length){
         for(int i=arr->length; i>index; i--){
             arr->A[i] = arr->A[i-1];
         }
@@ -274,17 +274,69 @@ void rearrange(struct Array *arr){
 
 int main()
 {
- struct Array arr1={{2,9,21,28,35},10,5};
- struct Array arr2={{2,3,16,18,28},10,5};
- struct Array *arr3; 
-//  arr3=Merge(&arr1,&arr2);
- Display(arr1);
- append(&arr1, 5);
- Display(arr1);
- Delete(&arr1, 3);
- Display(arr1);
- insert(&arr1, 3, 28);
- Display(arr1);
+ struct Array arr1;
+ int ch;
+ int x, index;
+
+ printf("Enter Size of Array: ");
+ cin >> arr1.size;
+ arr1.A=(int *)malloc(arr1.size * sizeof(int));
+ arr1.length = 0;
+
+ do{
+    cout<<"-----------------MENU-----------------" << endl;
+    cout<<"1. Insert" << endl;
+    cout<<"2. Delete" << endl;
+    cout<<"3. Search" << endl;
+    cout<<"4. Sum" << endl;
+    cout<<"5. Display" << endl;
+    cout<<"6. Exit" << endl;
+
+    cout << "Enter your Choice: ";
+    cin >> ch;
+
+    switch(ch){
+        case 1:
+            cout << "Enter element and index: ";
+            cin >> x >> index;
+            insert(&arr1, index, x);
+            break;
+        case 2:
+            cout << "Enter index: ";
+            cin >> index;
+            x = Delete(&arr1, index);
+            cout << "Deleted element : " << x << endl;
+            break;
+        case 3:
+            cout << "Enter an Element to search: ";
+            cin >> x;
+            index = LinearSearch(&arr1, x);
+            if(index == -1){
+                cout << "Could not find the element" << endl;
+            }
+            else
+                cout << "Index: " << index << endl;
+            break;
+        case 4:
+            x = sum(&arr1);
+            cout << "Sum = " << x << endl;
+            break;
+        case 5: 
+            Display(arr1);
+            break;
+    }
+ }
+ while(ch<6);
 
  return 0;
 }
+
+// int main(){
+//     struct Array arr1;
+//     arr1.size = 10;
+//     arr1.A = (int *)malloc()
+//     insert(&arr1, 0, 1);
+//     Display(arr1);
+
+//     return 0;
+// }
