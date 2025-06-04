@@ -113,6 +113,19 @@ int avg(struct Array *arr){
     return (float)sum(arr)/arr->length;
 }
 
+void reverse(struct Array *arr){
+    int *B = (int *)malloc(sizeof(int) * arr->length);
+    int i, j;
+
+    for(i=arr->length-1, j=0; i<=0; i--, j++){
+        B[j] = A[i];
+    }
+
+    for(i=0; i<arr->length; i++){
+        A[i] = B[i];
+    }
+}
+
 
 int main()
 {
