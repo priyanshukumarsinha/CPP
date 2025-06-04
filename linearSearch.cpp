@@ -134,6 +134,35 @@ void reverse2(struct Array *arr){
     }
 }
 
+void leftShift(struct Array *arr){
+    int temp = arr->A[0];
+    for(int i=1; i<arr->length; i++){
+        arr->A[i-1] = arr->A[i];
+    }
+}
+
+void leftRotate(struct Array *arr){
+    int temp = arr->A[0];
+    for(int i=1; i<arr->length; i++){
+        arr->A[i-1] = arr->A[i];
+    }
+    arr->A[arr->length-1] = temp;
+}
+
+void rightShift(struct Array *arr){
+    int temp = arr->A[0];
+    for(int i=1; i<arr->length; i++){
+        arr->A[i-1] = arr->A[i];
+    }
+}
+
+void leftRotate(struct Array *arr){
+    int temp = arr->A[0];
+    for(int i=1; i<arr->length; i++){
+        arr->A[i-1] = arr->A[i];
+    }
+    arr->A[arr->length-1] = temp;
+}
 
 int main()
 {
@@ -142,7 +171,7 @@ int main()
 //  Set(&arr1,3,52);
 //  Display(arr1);
 //  cout << sum(&arr1) <<endl<< min(&arr1) <<endl<< max(&arr1)<<endl << avg(&arr1)<<endl;
- reverse2(&arr1);
+ leftShift(&arr1);
  Display(arr1);
  return 0;
 }
