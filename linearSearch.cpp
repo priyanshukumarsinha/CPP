@@ -1,4 +1,5 @@
 #include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 struct Array
@@ -67,11 +68,58 @@ int RbinarySearch(struct Array *arr,int l, int h, int key){
     return -1;
 }
 
+int get(struct Array *arr, int index){
+    if(index>=0 && index <=arr->length){
+        return arr->A[index];
+    }
+    return -1;
+}
+
+void Set(struct Array *arr, int index, int x){
+    if(index>=0 && index<=arr->size){
+        arr->A[index] = x;
+    }
+}
+
+int max(struct Array *arr){
+    int max = INT_MIN;
+    for(int i=0; i<arr->length; i++){
+        if(max < arr->A[i]){
+            max = arr->A[i];
+        }
+    }
+    return max;
+}
+
+int min(struct Array *arr){
+    int min = INT_MAX;
+    for(int i=0; i<arr->length; i++){
+        if(min > arr->A[i]){
+            min = arr->A[i];
+        }
+    }
+    return min;
+}
+
+int sum(struct Array *arr){
+    int sum=0;
+    for(int i=0; i<arr->length; i++){
+        sum += arr->A[i];
+    }
+    return sum;
+}
+
+int avg(struct Array *arr){
+    return (float)sum(arr)/arr->length;
+}
+
 
 int main()
 {
  struct Array arr1={{2,23,14,5,6,9,8,12},10,8};
- printf("%d\n",RbinarySearch(&arr1,0, arr1.length-1 ,14));
+ cout << get(&arr1, 3) << endl;
+ Set(&arr1,3,52);
  Display(arr1);
+ cout << sum(&arr1) <<endl<< min(&arr1) <<endl<< max(&arr1)<<endl << avg(&arr1)<<endl;
  return 0;
 }
