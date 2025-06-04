@@ -208,7 +208,7 @@ void append(struct Array *arr, int x){
 }
 
 void insert(struct Array *arr, int index, int x){
-    if(arr->length + 1 > arr->size){
+    if(arr->length==arr->size){
         cout << "Array Overflow" << endl;
         return;
     }
@@ -236,6 +236,40 @@ int Delete(struct Array *arr, int index){
         cout << "Array Underflow";
 
     return deleted_item;
+}
+
+void insertSort(struct Array *arr, int index, int x){
+    int i=arr->length -1;
+    if(arr->length==arr->size)
+        return;
+    while(i>=0 && arr->A[i]>x){
+        arr->A[i+1] =arr->A[i];
+        i--;
+    }
+    arr->A[i+1]=x;
+    arr->length++;
+}
+
+bool isSorted(struct Array *arr){
+    for(int i=0; i<arr->length-1; i++){
+        if(arr->A[i]<arr->A[i+1]){
+            return false;
+        }
+    }
+    return true;
+}
+
+void rearrange(struct Array *arr){
+    int i,j;
+    i=0;
+    j= arr->length-1;
+
+    while(i<j){
+        while(arr->A[i]>0)i++;
+        while(arr->A[j]<0)j--;
+        if(i<j) swap(&arr->A[i], &arr->A[j]);
+    }
+
 }
 
 int main()
